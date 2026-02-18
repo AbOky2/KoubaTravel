@@ -16,28 +16,7 @@
 
 @layer base {
   html {
-    /* scroll-behavior: smooth; */
-  }
-
-  html.lenis,
-  html.lenis body {
-    height: auto;
-  }
-
-  .lenis.lenis-smooth {
-    scroll-behavior: auto !important;
-  }
-
-  .lenis.lenis-smooth [data-lenis-prevent] {
-    overscroll-behavior: contain;
-  }
-
-  .lenis.lenis-stopped {
-    overflow: hidden;
-  }
-
-  .lenis.lenis-scrolling iframe {
-    pointer-events: none;
+    scroll-behavior: auto;
   }
 
   body {
@@ -47,6 +26,10 @@
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     letter-spacing: -0.01em;
+    overflow-x: hidden;
+    overflow-y: auto;
+    touch-action: pan-y;
+    -webkit-overflow-scrolling: touch;
   }
 
   ::selection {
@@ -72,11 +55,11 @@
   }
 
   .text-gradient {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-slate-900 via-slate-700 to-slate-900;
+    @apply bg-clip-text text-transparent bg-linear-to-r from-slate-900 via-slate-700 to-slate-900;
   }
 
   .text-gradient-gold {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-amber-600 via-amber-500 to-amber-600;
+    @apply bg-clip-text text-transparent bg-linear-to-r from-amber-600 via-amber-500 to-amber-600;
   }
 }
 
@@ -102,7 +85,7 @@
   }
 
   .divider {
-    @apply h-px w-full bg-gradient-to-r from-transparent via-amber-200/50 to-transparent;
+    @apply h-px w-full bg-linear-to-r from-transparent via-amber-200/50 to-transparent;
   }
 
   .bg-grid {
