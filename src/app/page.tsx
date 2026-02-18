@@ -482,7 +482,7 @@ export default function Home() {
         </section>
 
         {/* Reservation Section */}
-        <section id="reservation" className="mx-auto max-w-7xl px-6 py-24">
+        <section id="reservation" className="mx-auto max-w-7xl px-6 pt-24 pb-40">
           <div className="relative overflow-hidden rounded-[48px] bg-white shadow-2xl border border-amber-100">
             <div className="grid lg:grid-cols-2">
               <div className="p-10 lg:p-20 flex flex-col justify-center">
