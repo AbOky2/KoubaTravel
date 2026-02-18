@@ -209,16 +209,22 @@ export default function Home() {
   return (
     <div className="relative min-h-screen overflow-x-hidden bg-[#fff8f1] text-slate-900 font-sans selection:bg-amber-100 selection:text-amber-900">
       {/* Background Elements */}
-      <div aria-hidden className="absolute inset-0 bg-horizon opacity-60" />
       <div
         aria-hidden
-        className="absolute right-[-5%] top-[-10%] h-[600px] w-[600px] rounded-full bg-[radial-gradient(circle,rgba(14,116,144,0.15),transparent_70%)] blur-3xl animate-enter"
+        className="pointer-events-none absolute inset-0 bg-horizon opacity-60"
       />
       <div
         aria-hidden
-        className="absolute bottom-[-10%] left-[-5%] h-[700px] w-[700px] rounded-full bg-[radial-gradient(circle,rgba(251,191,36,0.15),transparent_70%)] blur-3xl animate-enter animate-enter-delay-1"
+        className="pointer-events-none absolute right-[-5%] top-[-10%] h-[600px] w-[600px] rounded-full bg-[radial-gradient(circle,rgba(14,116,144,0.15),transparent_70%)] blur-3xl animate-enter"
       />
-      <div aria-hidden className="absolute inset-0 bg-grid opacity-20" />
+      <div
+        aria-hidden
+        className="pointer-events-none absolute bottom-[-10%] left-[-5%] h-[700px] w-[700px] rounded-full bg-[radial-gradient(circle,rgba(251,191,36,0.15),transparent_70%)] blur-3xl animate-enter animate-enter-delay-1"
+      />
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-0 bg-grid opacity-20"
+      />
 
       {/* Header */}
       <header className="relative z-10 px-6 pt-6 animate-enter">
