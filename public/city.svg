@@ -1,0 +1,17 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#FDF4E7"/>
+  <circle cx="160" cy="160" r="70" fill="#FAD28A"/>
+  <rect x="80" y="260" width="120" height="220" rx="14" fill="#E9C07A"/>
+  <rect x="220" y="220" width="140" height="260" rx="14" fill="#DFAE60"/>
+  <rect x="380" y="180" width="140" height="300" rx="14" fill="#CFA25E"/>
+  <rect x="540" y="240" width="130" height="240" rx="14" fill="#E2B16D"/>
+  <rect x="110" y="300" width="20" height="28" fill="#F7E6C9"/>
+  <rect x="150" y="300" width="20" height="28" fill="#F7E6C9"/>
+  <rect x="250" y="260" width="20" height="28" fill="#F7E6C9"/>
+  <rect x="290" y="260" width="20" height="28" fill="#F7E6C9"/>
+  <rect x="430" y="220" width="20" height="28" fill="#F7E6C9"/>
+  <rect x="470" y="220" width="20" height="28" fill="#F7E6C9"/>
+  <rect x="570" y="280" width="20" height="28" fill="#F7E6C9"/>
+  <rect x="610" y="280" width="20" height="28" fill="#F7E6C9"/>
+  <path d="M0 520C140 500 260 510 380 535C500 560 640 570 800 545V600H0V520Z" fill="#E7B56E"/>
+</svg>
